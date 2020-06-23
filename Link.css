@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+#top{
+    background-color: orange;
+}
+#left{
+    background-color: olive;
+    float: left;
+    width: 20%;
+    
+    clear: left;
+    padding: 2%;
+    display: block;
+    }
+#right{
+    background-color: fuchsia;
+    float: right;
+    width: 75%;
+    min-height: 30em;
+    clear: right;
+    padding-left: 1%;
+    display: block;
+}
+#back{
+    float: right;
+    display: block;
+    position: fixed; left: 0; top: 100%; width: 8em; margin-top: -2.5em;
+}
+footer{
+    display: block;
+    width: 100%;
+    overflow: scroll;
+    clear: both;
+    overflow: scroll;
+    border-top: 3px double grey;
+    max-height: 10em;
+}
